@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Escencia</title>
+
+  <link rel="stylesheet" href="css/estilos01.css">
+
+  <link rel="icon" href="image/restaurante.png" type="image/x-icon">
+</head>
+
+<body>
+
+
+  <header>
+    <div class="logo">
+      <img src="image/logo.png" alt="">
+    </div>
+    <nav>
+      <ul><a href="#hero">Inicio<li></a>
+          <ul><a href="#video-section">Menu<li></a>
+            <ul><a href="#complex-section">Galeria<li></a>
+              <ul><a href="#background-section">Reserva<li></a>
+              <ul><a href="#container">Contacto<li></a>
+
+              </ul>
+    </nav>
+  </header>
+
+
+
+
+
+
+
+
+  <section id="hero" class="hero">
+    <div class="content">
+      <h1>BIENVENIDO</h1>
+      <button>Haz clic aquí</button>
+    </div>
+  </section>
+
+
+  <section class="text-section">
+    <h2>Bienvenido a Nuestra Página</h2>
+    <p>Explora nuestros servicios y productos diseñados especialmente para ti. ¡Esperamos tu visita!</p>
+    <button>Descubre Más</button>
+  </section>
+
+
+
+  <section class="content-section">
+     <section id="video-section"     class="video-section">
+    <video autoplay muted loop class="background-video">
+      <source src="image/videoportada.mp4" type="video/mp4">
+
+    </video>
+    <div class="overlay">
+      <h2>ESCENCIA</h2>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="secciongaleria">
+
+    <div class="image-container">
+      <div class="card">
+        <img src="image/iconocasa.svg" alt="Imagen 1">
+        <p>Disfruta de un restaurante contemporáneo que fusiona sabores innovadores y técnicas culinarias modernas,
+          utilizando ingredientes frescos y de alta calidad.</p>
+        <button>Ver más</button>
+      </div>
+      <div class="card">
+        <img src="image/iconsplato.svg" alt="Imagen 2">
+        <p>Descubre cómo en Escencia transformamos recetas clásicas en experiencias contemporáneas sin perder su esencia
+          original.</p>
+        <button>Ver más</button>
+      </div>
+      <div class="card">
+        <img src="image/iconbebidas.svg" alt="Imagen 3">
+        <p>Una selección exclusiva de bebidas que incluyen cócteles creativos, vinos cuidadosamente seleccionados y
+          opciones sin alcohol, ideales para acompañar tu experiencia gastronómica.</p>
+        <button>Ver más</button>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <section  id="complex-section" class="complex-section">
+    <h2>Galería Compleja</h2>
+    <div class="image-grid">
+      <!-- Primera fila: Dos imágenes de 200x200 -->
+      <div class="row">
+        <img src="image/galeria1.png" alt="Imagen 1" class="large-img">
+        <img src="image/galeria2.png" alt="Imagen 2" class="large-img">
+      </div>
+
+      <!-- Columna a la derecha de las primeras imágenes -->
+      <div class="side-column">
+        <img src="image/galeria3.png" alt="Imagen 3" class="small-img">
+        <img src="image/galeria4.png" alt="Imagen 4" class="small-img">
+      </div>
+
+      <!-- Segunda fila: Una imagen grande de 400x200 y otra pequeña de 150x200 -->
+      <div class="row">
+        <img src="image/galeria5.png" alt="Imagen 5" class="extra-large-img">
+        <img src="image/galeria6.png" alt="Imagen 6" class="tall-small-img">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="background-section"   class="background-section">
+    <div class="content">
+      <h3>Reserva con Nosotros</h3>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <section class="reservation-section">
+    <div class="form-container">
+      <form class="reservation-form">
+        <h2>Reserva tu Mesa</h2>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required>
+
+        <label for="personas">Número de personas:</label>
+        <input type="number" id="personas" name="personas" placeholder="Cantidad" min="1" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
+
+        <button type="submit">Reservar Mesa</button>
+      </form>
+      <div class="image-container">
+        <img src="image/imagenreserva.jpg" alt="Mesa de Restaurante">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+  <div id="container"   class="container">
+    <!-- Columna izquierda -->
+    <div class="columna izquierda">
+      <h3><i class="image/direccion.png"></i> Dirección</h3>
+      <p>123 Calle Ficticia, Ciudad, País</p>
+
+      <h3><i class="image/telefono.png"></i> Teléfono</h3>
+      <p>+1 234 567 890</p>
+
+      <h3><i class="image/correo.png"></i> Correo</h3>
+      <p>ejemplo@correo.com</p>
+
+      <h3>Descripción</h3>
+      <p>Este es un párrafo que describe más detalles sobre la información proporcionada en esta sección.</p>
+    </div>
+
+    <!-- Columna central -->
+    <div class="columna central">
+      <h3>Conócenos</h3>
+      <p>Información adicional sobre la empresa, misión, visión o cualquier otro tema relevante.</p>
+
+      <div class="redes-sociales">
+        <a href="#" class="icono"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icono"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icono"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="icono"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="columna derecha">
+      <h3>Galería de Imágenes</h3>
+      <div class="galeria">
+        <img src="image/contacto1.png" alt="Imagen 1">
+        <img src="image/contacto2.png" alt="Imagen 2">
+        <img src="image/contacto3.png" alt="Imagen 3">
+        <img src="image/contacto4.png" alt="Imagen 4">
+        <img src="image/contacto5.png" alt="Imagen 5">
+        <img src="image/contacto6.png" alt="Imagen 6">
+      </div>
+    </div>
+  </div>
